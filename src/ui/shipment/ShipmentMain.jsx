@@ -38,7 +38,7 @@ export default function ShipmentMain({ TransitEvents }) {
           <tbody>
             {TransitEvents?.map(({ hub, state, timestamp }) => (
               <tr key={timestamp}>
-                <td>{titleizeKeys(t(hub)) || "N/A"}</td>
+                <td>{titleizeKeys(t(hub)) || "-"}</td>
                 <td>{shipmentDate(timestamp)}</td>
                 <td>{shipmentTime(timestamp)}</td>
                 <td>

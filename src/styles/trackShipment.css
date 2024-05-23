@@ -98,6 +98,10 @@
   height: 7px;
 }
 
+.text-grey {
+  color: #b6b6b6;
+}
+
 .shipment__mains {
   display: flex;
   align-items: flex-start;
@@ -175,7 +179,7 @@ td {
 }
 .problem__img {
   width: 70%;
-  height: 100%;
+  height: 90%;
 }
 .problem__btn {
   border-radius: 4px;
