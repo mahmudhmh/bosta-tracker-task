@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #e30613;
+  --color-gray: #667085;
+  --color-gray-dark: #475467;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+html {
+  font-size: 62.5%;
+}
+::selection {
+  background-color: #0098a5;
+  color: #fff;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  color: var(--color-grey-700);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+button {
+  cursor: pointer;
+}
+
+*:disabled {
+  cursor: not-allowed;
+}
+.section__heading {
+  font-family: "Poppins/Medium";
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.text__green {
+  color: #3ac435 !important;
+}
+.text__red {
+  color: var(--color-primary) !important;
+}
+.text__orange {
+  color: #f9ba2b !important;
+}
+.bg__green {
+  background-color: #3ac435 !important;
+}
+.bg__red {
+  background-color: var(--color-primary) !important;
+}
+.bg__orange {
+  background-color: #f9ba2b !important;
+}

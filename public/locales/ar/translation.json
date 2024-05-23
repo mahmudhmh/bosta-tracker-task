@@ -1,0 +1,65 @@
+{
+  "trackShipment": {
+    "header": "تتبع شحنتك",
+    "placeHolder": "رقم الشحنة"
+  },
+  "middleNav": {
+    "blog": "المدونة",
+    "pricing": "التسعير",
+    "callSales": "كلم المبيعات",
+    "Main": "الرئيسية"
+  },
+  "table": {
+    "Branch": "الفرع",
+    "Date": "التاريخ",
+    "Time": "الوقت",
+    "Details": "تفاصيل"
+  },
+
+  "signin": "تسجيل الدخول",
+  "signup": "اشترك",
+  "Deliveryaddress": "عنوان التسليم",
+  "Shipmentdetails": "تفاصيل الشحنة",
+  "isProblem": "هل يوجد مشكلة في شحنتك ؟!",
+  "ReportProblem": "إبلاغ عن مشكلة",
+
+  "DELIVERED": "تم تسليم الشحنة",
+  "CANCELLED": "تم إلغاء الشحنة",
+  "RETURNED": "تم إعادة الشحنة",
+  "DELIVERY_FAILED": "فشلت عملية التسليم",
+  "DELIVERED_TO_SENDER": "لم يتم تسليم الشحنة",
+  "TICKET_CREATED": "تم إنشاء التذكرة",
+  "PACKAGE_RECEIVED": "تم استلام الطرد",
+  "IN_TRANSIT": "في مرحلة انتقالية",
+  "NOT_YET_SHIPPED": "لم يتم شحنه بعد",
+  "WAITING_FOR_CUSTOMER_ACTION": "في انتظار إجراء العملاء",
+  "AVAILABLE_FOR_PICKUP": "متاح للاستلام",
+  "OUT_FOR_DELIVERY": "خارج للتوصيل",
+  "Shipment_Num": "رقم الشحنة",
+  "Last_updated": "اخر تحديث",
+  "Merchant_name": "اسم التاجر",
+  "Delivery_time_within": "موعد التسليم خلال",
+
+  "Bosta": "بوسطة",
+  "SOUQ.COM": "سوق",
+  "JUMIA": "جوميا",
+  "NOON": "نون",
+  "SELLER": "سلر",
+
+  "Shipment_has_been_created": "تم انشاء الشحنة",
+  "Shipment_has_been_received_from_the_merchant": "تم استلام الشحنة من التاجر",
+  "Shipment_is_out_for_delivery": "الشحنة خرجت للتسليم",
+  "Shipment_Delivered": "تم التسليم",
+  "Cairo_Sorting_Facility": "مركز الفرز بالقاهرة",
+  "Beni_Suef_Hub": "مركز بنى سويف",
+  "FM_&_Reverse_Hub": "مركز العودة",
+  "Shipment_has_been_returned_to_the_merchant": "تم إعادة الشحنة للتاجر",
+  "Shipment_has_been_cancelled": "تم إلغاء الشحنة",
+  "Shipment_has_been_returned_to_the_sender": "تم إعادة الشحنة للراسل",
+  "Shipment_has_failed_to_be_delivered": "فشلت الشحنة في الوصول",
+  "Shipment_is_waiting_for_customer_action": "في انتظار العميل",
+  "Shipment_is_available_for_pickup": "الشحنة يمكن استلامها اليوم",
+  "Shipment_has_been_cancelled_by_the_customer": "تم إلغاء الشحنة من العميل",
+  "Shipment_has_been_cancelled_by_the_merchant": "تم إلغاء الشحنة من التاجر",
+  "Shipment_has_been_cancelled_by_the_customer_service": "تم إلغاء الشحنة من خدمة العملاء"
+}
